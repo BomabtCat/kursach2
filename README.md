@@ -118,10 +118,9 @@ Render/Railway:
 
 Yandex Cloud:
 
-- поднять MongoDB в Managed Service for MongoDB или VM
-- собрать Docker images из `server/Dockerfile` и `client/Dockerfile`
-- задать production `.env`
-- открыть порты frontend/backend через security groups
+- подробная инструкция: [docs/YANDEX_CLOUD_DEPLOY.md](docs/YANDEX_CLOUD_DEPLOY.md)
+- вариант для курсовой: VM + Docker Compose + MongoDB в контейнере
+- открыть порты `22`, `80`, `5000`
 
 ## Структура
 
